@@ -1,0 +1,10 @@
+.oreder-container{
+  width: 70%;
+  background-color: rgb(238, 235, 235);
+}
+@media (max-width: 767px){
+	.oreder-container{
+    width: 100%;
+  
+  }
+}

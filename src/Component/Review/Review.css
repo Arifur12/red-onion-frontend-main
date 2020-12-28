@@ -1,0 +1,21 @@
+.reviewQtity {
+  display: flex;
+}
+.reviewQtity span {
+  margin-left: 10px;
+  border: 1px solid lightgray;
+  border-radius: 50px;
+  padding: 5px 20px;
+  background: white;
+  font-weight: 700;
+}
+.reviewQtity button {
+  border: 0px;
+  color: red;
+  font-weight: 700;
+  background: white;
+  margin: 0px 2px;
+}
+.jumbotron {
+  background-color: white;
+}

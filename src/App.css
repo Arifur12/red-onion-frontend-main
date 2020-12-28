@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+body{
+  font-family: "Josefin Sans", cursive;
+}

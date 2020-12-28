@@ -1,0 +1,76 @@
+.login-container{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login-container2{
+    width: 60%;
+}
+.login-container img{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.sign_up_form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.sign_up_form input{
+    margin: 10px 0px;
+    width: 60%;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.account{
+cursor: pointer;
+}
+
+.animationkey-log{
+    position: absolute;
+    top:75%;
+    left: 40%;
+    color:white;
+}
+.animationkey-acc{
+    position: absolute;
+    top:85%;
+    left: 40%;
+    color:white;
+}
+@media (max-width: 767px){
+	.sign_up_form input{
+        width: 100%;
+        border: 0px;
+        border-radius: 5px;
+    }
+    .login-container2{
+        width: 90%;
+    }
+    .login-container{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    .animationkey-log{
+        position: absolute;
+        top:75%;
+        left: 30%;
+        color:white;
+    }
+    .animationkey-acc{
+        position: absolute;
+        top:85%;
+        left: 20%;
+        color:white;
+    }
+}

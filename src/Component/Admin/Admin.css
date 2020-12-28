@@ -1,0 +1,49 @@
+.admin_box {
+  margin-top: 20px;
+}
+.addProduct {
+  display: grid;
+  place-items: center;
+}
+.adminForm {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px lightgray;
+  padding: 30px;
+}
+.adminForm > input {
+  margin: 20px 0px;
+  width: 400px;
+  padding: 10px;
+}
+.adminForm > textarea {
+  margin: 20px 0px;
+  width: 400px;
+  padding: 10px;
+}
+.adminForm > select {
+  margin: 20px 0px;
+  width: 400px;
+  padding: 10px;
+}
+.orderBox {
+  display: grid;
+  place-items: center;
+}
+.orderCard {
+  border: 1px solid lightgray;
+  width: 600px;
+  margin: 10px 0px;
+  padding: 10px;
+}
+.orderProduct {
+  display: flex;
+  justify-content: space-between;
+}
+.orderItems {
+  padding: 10px;
+}

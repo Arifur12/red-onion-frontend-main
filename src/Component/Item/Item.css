@@ -1,0 +1,16 @@
+.cart-item {
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.cart-item:hover {
+  box-shadow: 10px 10px 30px lightgray;
+  cursor: pointer;
+}
+.active {
+  border-bottom: 1px solid red;
+}

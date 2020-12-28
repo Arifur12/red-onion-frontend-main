@@ -1,0 +1,30 @@
+.bg-item-card{
+  background-color: rgb(236, 234, 234);
+  border-radius: 5px;
+}
+.price-container{
+  display: flex;
+  justify-content: space-between;
+}
+.plus-minus button{
+  border: 0px;
+  background-color: white;
+  padding: 5px;
+  font-weight: 700;
+  color: red;
+}
+.delivery-form form {
+  display: flex;
+  flex-direction: column;
+}
+.delivery-form small{
+  color: red;
+}
+.delivery-form  input{
+  border: 0px;
+  background-color: rgb(236, 236, 236);
+  margin-top: 10px;
+  padding: 10px 10px;
+  border-radius: 5px;
+
+}

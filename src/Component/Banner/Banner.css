@@ -1,0 +1,42 @@
+.banner-container {
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.search-container {
+  flex-direction: column;
+  margin: 50px auto;
+}
+.form-container form {
+  border-radius: 50px;
+  background: gray;
+}
+.search-container {
+  width: 50%;
+}
+.btn-search {
+  background: rgb(209, 65, 65) !important;
+  color: white;
+}
+.form-container input {
+  border-radius: 50px;
+  border: 0px;
+  background: none;
+}
+@media (max-width: 1200px) {
+  .banner-container {
+    height: 70vh;
+  }
+  .banner-container h1 {
+    font-size: 22px;
+  }
+  .search-container {
+    width: 80%;
+  }
+}

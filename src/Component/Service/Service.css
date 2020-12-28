@@ -1,0 +1,15 @@
+.icon{
+  font-size: 20px;
+  color: white;
+}
+.icon-container2{
+  border-radius: 50%;
+  padding: 10px;
+}
+.icon-container{
+  width: 50%;
+}
+.arrow{
+  background-color: rgb(137, 218, 17);
+  color: white;
+}

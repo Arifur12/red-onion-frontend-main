@@ -1,0 +1,24 @@
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px 0px;
+  box-shadow: 3px 3px 5px lightgray;
+}
+.header-container img {
+  width: 150px;
+}
+.header-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.admin_btn {
+  margin-left: 10px;
+}
+@media (max-width: 767px) {
+  .user-name {
+    margin-top: 5px;
+  }
+}
